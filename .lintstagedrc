@@ -1,0 +1,8 @@
+{
+  "linters": {
+    "**/*.+(ts|tsx|jx|jsx|vue|css|scss|less|stylus|json|md|mdx)": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
