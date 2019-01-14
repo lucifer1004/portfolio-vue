@@ -822,7 +822,7 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/graphql@^14.0.4":
+"@types/graphql@14.0.4":
   version "14.0.4"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.4.tgz#d71a75967cd93c33eaea32b626b362ce0f2b2ae9"
   integrity sha512-gI98ANelzzpq7lZzuYCUJg8LZDjQc7ekj7cxoWt8RezOKaVaAyK27U6AHa9LEqikP1NUhyi8blQQkHYHVRZ7Tg==
@@ -4331,10 +4331,10 @@ eslint-loader@^2.1.1:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-graphql@^2.1.1:
-  version "2.1.1"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-graphql/download/eslint-plugin-graphql-2.1.1.tgz#dae5d597080075320ea8e98795056309ffe73a18"
-  integrity sha1-2uXVlwgAdTIOqOmHlQVjCf/nOhg=
+eslint-plugin-graphql@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-graphql/-/eslint-plugin-graphql-3.0.1.tgz#b75533e7ddf43f5a5c558313259bab9bd7795203"
+  integrity sha512-0VdYeu/vqygjQ5Yovi4d1+tG9gPHACcWeAqLmjCjaxsRPuVywqFjP2TK2Bv5CHedHM2J0qJgmzKimTNYpDI7Xg==
   dependencies:
     graphql-config "^2.0.1"
     lodash "^4.11.1"
@@ -5424,7 +5424,7 @@ graphql-subscriptions@^1.0.0:
   dependencies:
     iterall "^1.2.1"
 
-graphql-tag@^2.9.0, graphql-tag@^2.9.2:
+graphql-tag@2.10.0, graphql-tag@^2.9.2:
   version "2.10.0"
   resolved "http://registry.npm.taobao.org/graphql-tag/download/graphql-tag-2.10.0.tgz#87da024be863e357551b2b8700e496ee2d4353ae"
   integrity sha1-h9oCS+hj41dVGyuHAOSW7i1DU64=
@@ -5440,9 +5440,9 @@ graphql-tools@^4.0.0:
     iterall "^1.1.3"
     uuid "^3.1.0"
 
-graphql-type-json@^0.2.1:
+graphql-type-json@0.2.1:
   version "0.2.1"
-  resolved "http://registry.npm.taobao.org/graphql-type-json/download/graphql-type-json-0.2.1.tgz#d2c177e2f1b17d87f81072cd05311c0754baa420"
+  resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.2.1.tgz#d2c177e2f1b17d87f81072cd05311c0754baa420"
   integrity sha1-0sF34vGxfYf4EHLNBTEcB1S6pCA=
 
 graphql-upload@^8.0.2:
@@ -7767,8 +7767,8 @@ nan@^2.9.2:
 
 nanoid@^2.0.0:
   version "2.0.0"
-  resolved "http://registry.npm.taobao.org/nanoid/download/nanoid-2.0.0.tgz#e1ab4a4b024a38d15531ba34a712a201540de639"
-  integrity sha1-4atKSwJKONFVMbo0pxKiAVQN5jk=
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.0.0.tgz#e1ab4a4b024a38d15531ba34a712a201540de639"
+  integrity sha512-SG2qscLE3iM4C0CNzGrsAojJHSVHMS1J8NnvJ31P1lH8P0hGHOiafmniNJz6w6q7vuoDlV7RdySlJgtqkFEVtQ==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -9843,10 +9843,10 @@ shellwords@^0.1.1:
   resolved "http://registry.npm.taobao.org/shellwords/download/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha1-1rkYHBpI05cyTISHHvvPxz/AZUs=
 
-shortid@^2.2.8:
+shortid@2.2.14:
   version "2.2.14"
-  resolved "http://registry.npm.taobao.org/shortid/download/shortid-2.2.14.tgz#80db6aafcbc3e3a46850b3c88d39e051b84c8d18"
-  integrity sha1-gNtqr8vD46RoULPIjTngUbhMjRg=
+  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.14.tgz#80db6aafcbc3e3a46850b3c88d39e051b84c8d18"
+  integrity sha512-4UnZgr9gDdA1kaKj/38IiudfC3KHKhDc1zi/HSxd9FQDR0VLwH3/y79tZJLsVYPsJgIjeHjqIWaWVRJUj9qZOQ==
   dependencies:
     nanoid "^2.0.0"
 
@@ -10531,8 +10531,8 @@ throat@^4.0.0:
 
 throttle-debounce@^2.0.0:
   version "2.0.1"
-  resolved "http://registry.npm.taobao.org/throttle-debounce/download/throttle-debounce-2.0.1.tgz#7307ddd6cd9acadb349132fbf6c18d78c88a5e62"
-  integrity sha1-cwfd1s2ayts0kTL79sGNeMiKXmI=
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.0.1.tgz#7307ddd6cd9acadb349132fbf6c18d78c88a5e62"
+  integrity sha512-Sr6jZBlWShsAaSXKyNXyNicOrJW/KtkDqIEwHt4wYwWA2wa/q67Luhqoujg48V8hTk60wB56tYrJJn6jc2R7VA==
 
 through2@^2.0.0:
   version "2.0.5"
@@ -11091,18 +11091,18 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-apollo@^3.0.0-beta.11:
+vue-apollo@3.0.0-beta.27:
   version "3.0.0-beta.27"
-  resolved "http://registry.npm.taobao.org/vue-apollo/download/vue-apollo-3.0.0-beta.27.tgz#d071d7bbaf83c9689bdf992d9ef762c17af29623"
-  integrity sha1-0HHXu6+DyWib35ktnvdiwXryliM=
+  resolved "https://registry.yarnpkg.com/vue-apollo/-/vue-apollo-3.0.0-beta.27.tgz#d071d7bbaf83c9689bdf992d9ef762c17af29623"
+  integrity sha512-0NcYSLReOI5vsZesX9rLVVKR8iZaJRAKsBG7eAUJ4RRIDzYBVpPET8C7v9oyhHymENN/FhImurq/krTk8z9ZYw==
   dependencies:
     chalk "^2.4.1"
     throttle-debounce "^2.0.0"
 
-vue-cli-plugin-apollo@^0.19.1:
+vue-cli-plugin-apollo@0.19.1:
   version "0.19.1"
-  resolved "http://registry.npm.taobao.org/vue-cli-plugin-apollo/download/vue-cli-plugin-apollo-0.19.1.tgz#46cc3ca85d12c00571ec15e35794d1d0cb117a13"
-  integrity sha1-Rsw8qF0SwAVx7BXjV5TR0MsRehM=
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-apollo/-/vue-cli-plugin-apollo-0.19.1.tgz#46cc3ca85d12c00571ec15e35794d1d0cb117a13"
+  integrity sha512-GVXCamuTmT7EpTFJHUNR48Lbg1Y+ZnED1fQ6nveTqAf7VCSADswJyX75gYrJSjWUP4N3BJqzT/O/JVWJfB1G2Q==
   dependencies:
     apollo-cache-inmemory "^1.3.12"
     apollo-client "^2.4.8"

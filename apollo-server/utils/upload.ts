@@ -9,7 +9,10 @@ const uploadDir = resolve(__dirname, '../../live/uploads')
 // Ensure upload directory exists
 sync(uploadDir)
 
-const storeUpload = async ({stream, filename}) => {
+const storeUpload = async ({
+  stream,
+  filename,
+}): Promise<{id: string; path: string}> => {
   const id = generate()
   const file = `${id}-${filename}`
   const path = `${uploadDir}/${file}`
