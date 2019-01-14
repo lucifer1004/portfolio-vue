@@ -22,5 +22,10 @@ export default new Router({
       component: () =>
         import(/* webpackChunkName: "about" */ './views/About.vue'),
     },
+    {
+      path: '/apollo',
+      name: 'apollo',
+      component: () => import('./views/Apollo.vue'),
+    },
   ],
 })
