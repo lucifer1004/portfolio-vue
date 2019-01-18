@@ -16,7 +16,7 @@
     "vuex": "3.0.1"
   },
   "devDependencies": {
-    "@types/jest": "23.3.12",
+    "@types/jest": "23.3.13",
     "@vue/cli-plugin-babel": "3.3.0",
     "@vue/cli-plugin-eslint": "3.3.0",
     "@vue/cli-plugin-pwa": "3.3.0",
