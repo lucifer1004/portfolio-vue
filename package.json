@@ -15,7 +15,7 @@
     "graphql-type-json": "0.2.1",
     "lowdb": "1.0.0",
     "mkdirp": "0.5.1",
-    "register-service-worker": "1.5.2",
+    "register-service-worker": "1.6.1",
     "shortid": "2.2.14",
     "vue": "2.5.22",
     "vue-apollo": "3.0.0-beta.27",
