@@ -16,7 +16,7 @@
     "lowdb": "1.0.0",
     "mkdirp": "0.5.1",
     "register-service-worker": "1.6.1",
-    "shortid": "2.2.14",
+    "shortid": "2.2.16",
     "vue": "2.6.6",
     "vue-apollo": "3.0.0-beta.28",
     "vue-router": "3.0.2",
