@@ -9228,6 +9228,13 @@ randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   dependencies:
     safe-buffer "^5.1.0"
 
+randombytes@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
+  integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
+  dependencies:
+    safe-buffer "^5.1.0"
+
 randomfill@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/randomfill/-/randomfill-1.0.4.tgz#c92196fc86ab42be983f1bf31778224931d61458"
@@ -9836,6 +9843,13 @@ serialize-javascript@^1.4.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.6.1.tgz#4d1f697ec49429a847ca6f442a2a755126c4d879"
   integrity sha512-A5MOagrPFga4YaKQSWHryl7AXvbQkEqpw4NNYMTNYUNV51bA8ABHgYFpqKx+YFFrw59xMV1qGH1R4AgoNIVgCw==
+
+serialize-javascript@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
+  integrity sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==
+  dependencies:
+    randombytes "^2.1.0"
 
 serve-index@^1.7.2:
   version "1.9.1"
@@ -10621,10 +10635,10 @@ throat@^4.0.0:
   resolved "https://registry.yarnpkg.com/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
   integrity sha1-iQN8vJLFarGJJua6TLsgDhVnKmo=
 
-throttle-debounce@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.1.0.tgz#257e648f0a56bd9e54fe0f132c4ab8611df4e1d5"
-  integrity sha512-AOvyNahXQuU7NN+VVvOOX+uW6FPaWdAOdRP5HfwYxAfCzXTFKRMoIMk+n+po318+ktcChx+F1Dd91G3YHeMKyg==
+throttle-debounce@^2.1.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.3.0.tgz#fd31865e66502071e411817e241465b3e9c372e2"
+  integrity sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==
 
 through2@^2.0.0:
   version "2.0.5"
@@ -11178,13 +11192,14 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-apollo@3.0.0-beta.28:
-  version "3.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/vue-apollo/-/vue-apollo-3.0.0-beta.28.tgz#be6a3a1504be2096cbfb23996537e2fc95c8c239"
-  integrity sha512-ceCc1xTyxpNtiSeJMQgSkfgJue6pnv+TIvp75CwZlwMxRtNZjITj4MGvBWFwnoIEhVrUAw45ff/5udgJ8z9sdQ==
+vue-apollo@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vue-apollo/-/vue-apollo-3.1.0.tgz#d0370b64f928f488b7ad98177cca8e1a82fa725e"
+  integrity sha512-TkXMpgypbqM/27vKIpWNhL347QRtcu9kWkEmxplPGGMnZb+hSbbIwU07LjQVzFwrLBer0ha9zJP4hIW/fCQDuw==
   dependencies:
-    chalk "^2.4.1"
-    throttle-debounce "^2.0.0"
+    chalk "^2.4.2"
+    serialize-javascript "^4.0.0"
+    throttle-debounce "^2.1.0"
 
 vue-cli-plugin-apollo@0.19.1:
   version "0.19.1"
