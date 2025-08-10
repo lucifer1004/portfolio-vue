@@ -17,7 +17,7 @@
     "mkdirp": "0.5.1",
     "register-service-worker": "1.6.1",
     "shortid": "2.2.14",
-    "vue": "2.6.6",
+    "vue": "2.7.16",
     "vue-apollo": "3.0.0-beta.28",
     "vue-router": "3.0.2",
     "vuex": "3.1.0"
@@ -51,7 +51,7 @@
     "ts-jest": "23.10.5",
     "typescript": "3.3.3",
     "vue-cli-plugin-apollo": "0.19.1",
-    "vue-template-compiler": "2.6.6"
+    "vue-template-compiler": "2.7.16"
   },
   "husky": {
     "hooks": {
